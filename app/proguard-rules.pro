@@ -1,0 +1,6 @@
+-keep class com.gixtool.app.** { *; }
+-keep class com.google.android.gms.ads.** { *; }
+-dontwarn com.google.android.gms.**
+-keepattributes *Annotation*
+-keepattributes Signature
+-keepattributes Exceptions

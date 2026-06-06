@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GIX Tool</string>
+    <string name="splash_tagline">أداة تحسين الألعاب الاحترافية</string>
+    <string name="loading">جاري التحميل…</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_optimizer">التحسين</string>
+    <string name="nav_cleaner">التنظيف</string>
+
+    <!-- Device Specs -->
+    <string name="ram_info">متاح: %1$s / %2$s</string>
+    <string name="cpu_info">%1$s\n%2$d نواة — %3$d MHz</string>
+    <string name="storage_info">متاح: %1$s / %2$s</string>
+
+    <!-- Performance HUD -->
+    <string name="fps_format">%d</string>
+    <string name="ram_format">%d MB</string>
+    <string name="cpu_format">%d%%</string>
+    <string name="temp_format">%.1f°C</string>
+
+    <!-- Ads -->
+    <string name="ad_loading">جاري تحميل الإعلان…</string>
+</resources>

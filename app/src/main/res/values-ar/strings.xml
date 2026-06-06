@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أداة GIX</string>
+    <string name="splash_tagline">أداة تحسين الألعاب الاحترافية</string>
+    <string name="loading">جاري التحميل…</string>
+
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_optimizer">تحسين</string>
+    <string name="nav_cleaner">تنظيف</string>
+
+    <string name="ram_info">متاح: %1$s من %2$s</string>
+    <string name="cpu_info">%1$s\n%2$d نواة — %3$d ميغاهرتز</string>
+    <string name="storage_info">متاح: %1$s من %2$s</string>
+
+    <string name="fps_format">%d</string>
+    <string name="ram_format">%d ميغابايت</string>
+    <string name="cpu_format">%d%%</string>
+    <string name="temp_format">%.1f°C</string>
+
+    <string name="ad_loading">جاري تحميل الإعلان…</string>
+</resources>

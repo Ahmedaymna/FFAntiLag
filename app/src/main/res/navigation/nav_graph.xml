@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.gixtool.app.ui.main.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/optimizerFragment"
+        android:name="com.gixtool.app.ui.optimizer.OptimizerFragment"
+        android:label="Optimizer"
+        tools:layout="@layout/fragment_optimizer"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/cleanerFragment"
+        android:name="com.gixtool.app.ui.cleaner.CleanerFragment"
+        android:label="Cleaner"
+        tools:layout="@layout/fragment_cleaner"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+</navigation>

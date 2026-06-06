@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="140dp"
+    android:height="140dp"
+    android:viewportWidth="140"
+    android:viewportHeight="140">
+
+    <!-- Outer glow ring -->
+    <path
+        android:pathData="M70,10 A60,60 0 1,1 69.99,10 Z"
+        android:fillColor="#1A00FFFF"
+        android:strokeColor="#00FFFF"
+        android:strokeWidth="1.5" />
+
+    <!-- Hexagon base (3D look) -->
+    <path
+        android:pathData="M70,25 L100,42 L100,78 L70,95 L40,78 L40,42 Z"
+        android:fillColor="#0D0D22"
+        android:strokeColor="#00FFFF"
+        android:strokeWidth="2" />
+
+    <!-- 3D depth lines -->
+    <path
+        android:pathData="M70,95 L73,110 L100,93 L100,78 Z"
+        android:fillColor="#004455"
+        android:strokeColor="#006688"
+        android:strokeWidth="1" />
+    <path
+        android:pathData="M70,95 L73,110 L43,93 L40,78 Z"
+        android:fillColor="#002233"
+        android:strokeColor="#004466"
+        android:strokeWidth="1" />
+
+    <!-- "G" letter -->
+    <path
+        android:pathData="M75,50 A15,15 0 1,0 75,80 L75,67 L65,67 L65,72 L70,72 L70,76 A10,10 0 1,1 56,65 Z"
+        android:fillColor="#00FFFF"
+        android:strokeColor="#00FFFF"
+        android:strokeWidth="0.5" />
+
+    <!-- "X" letter -->
+    <path
+        android:pathData="M78,50 L88,80 M88,50 L78,80"
+        android:fillColor="transparent"
+        android:strokeColor="#FF6600"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- Neon dots decoration -->
+    <circle android:cx="40" android:cy="42" android:r="3" android:fillColor="#00FFFF" />
+    <circle android:cx="100" android:cy="42" android:r="3" android:fillColor="#FF6600" />
+    <circle android:cx="70" android:cy="25" android:r="3" android:fillColor="#CC44FF" />
+
+    <!-- Fire sparks at top -->
+    <path
+        android:pathData="M70,12 L68,18 L72,18 Z"
+        android:fillColor="#FF6600" />
+    <path
+        android:pathData="M63,14 L61,20 L65,20 Z"
+        android:fillColor="#FF4400" />
+    <path
+        android:pathData="M77,14 L75,20 L79,20 Z"
+        android:fillColor="#FFAA00" />
+
+</vector>

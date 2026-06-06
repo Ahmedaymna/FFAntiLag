@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Hexagon -->
+    <path
+        android:pathData="M54,18 L80,33 L80,63 L54,78 L28,63 L28,33 Z"
+        android:fillColor="#0D0D22"
+        android:strokeColor="#00FFFF"
+        android:strokeWidth="2.5" />
+
+    <!-- G letter -->
+    <path
+        android:pathData="M57,35 A13,13 0 1,0 57,61 L57,50 L48,50 L48,55 L52,55 L52,58 A8,8 0 1,1 41,48 Z"
+        android:fillColor="#00FFFF" />
+
+    <!-- X letter -->
+    <path
+        android:pathData="M60,35 L69,61 M69,35 L60,61"
+        android:fillColor="transparent"
+        android:strokeColor="#FF6600"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+
+    <!-- Fire -->
+    <path
+        android:pathData="M54,10 C50,15 52,20 54,18 C56,20 58,15 54,10 Z"
+        android:fillColor="#FF6600" />
+    <path
+        android:pathData="M54,12 C52,16 53,19 54,17 C55,19 56,16 54,12 Z"
+        android:fillColor="#FFAA00" />
+
+</vector>
