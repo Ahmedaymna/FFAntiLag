@@ -50,7 +50,7 @@ jobs:
           SIGNING_STORE_PASSWORD: ${{ secrets.SIGNING_STORE_PASSWORD }}
 
       - name: Sign APK
-        if: ${{ secrets.KEYSTORE_BASE64 != '' }}
+        if: false
         uses: r0adkll/sign-android-release@v1
         id: sign_app
         with:
